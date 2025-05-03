@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Biodata Saya</h1>
+
+        <img src="candra.jpg" alt="Foto Profil" width="200">
+
+        <p>
+            Email: <a href="mailto:proscandra7@gmail.com" target="_blank">proscandra7@gmail.com</a><br>
+            Phone: 081775251596<br>
+            GitHub: <a href="https://github.com/candra100-byte" target="_blank">https://github.com/candra100-byte</a>
+        </p>
+
+        <h2>Hubungi Saya</h2>
+        <form method="POST" action="#">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini" required></textarea><br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
